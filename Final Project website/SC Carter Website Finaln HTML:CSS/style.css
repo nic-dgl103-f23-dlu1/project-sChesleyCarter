@@ -21,6 +21,7 @@ h2 {
 
 p {
     font-family: 'Oswald', sans-serif;
+    color: #ffffea;
 }
 
 a {
@@ -150,8 +151,78 @@ header h1 {
 /*subscribe prompt section*/
 label {
     font-family: 'Oswald', sans-serif;
+    color:#ffffea;
+    font-size: 2.5rem;
+    margin-left: 500px;
 }
 
+input {
+    margin-left: 650px;
+}
+
+.input::placeholder {
+    color: grey;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.subscribehead {
+    display: flex;
+    align-items: center;
+    color:#339aae;
+    background-color: #ffffea;
+    border: double 15px #f2542d;
+    border-radius: 10px 100px;
+    padding-left: 67px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 185px;
+    margin-right:185px; 
+    font-size: 4rem;
+}
+/*land Acknowledgement section*/
+
+.laheader {
+    display: flex;
+    align-items: center;
+    color:#339aae;
+    background-color: #ffffea;
+    border: double 15px #f2542d;
+    border-radius: 10px 100px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 375px;
+    margin-right:375px;
+    margin-bottom:-10px;
+    font-size: 5rem;
+}
+
+.latext {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+
+
+}
+
+.lalink {
+  background-color: #f2542d;
+  padding: 15px 25px;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  border-radius: 3px 35px 3px 35px;
+
+}
+.lalink {
+    transition-duration: 0.4s;
+  }
+
+.lalink:hover {
+    background-color: #ffffea;
+    color: #f2542d;
+  }
 /*sponsor section*/
 .sponsors {
     display: flex;
@@ -170,6 +241,16 @@ label {
 .sponsorheader {
     display: flex;
     align-items: center;
+    color:#339aae;
+    background-color: #ffffea;
+    border: double 15px #f2542d;
+    border-radius: 10px 100px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 275px;
+    margin-right:275px;
+    margin-top: 100px;
 }
 
 .sponsorlink {
