@@ -12,7 +12,7 @@ header {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #ffffea;
     border-radius: 20px 100px 20px 100px;
 }
@@ -20,8 +20,15 @@ header {
 
 header h1 {
     color:#339aae;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 3.5rem;
 }
 
+.dates {
+    font-size: 4rem;
+}
 a {
     text-decoration: none;
     color:#ffffea;
@@ -33,6 +40,17 @@ a {
     align-items: center;
     justify-content: space-evenly;
 
+}
+
+.passesbutton {
+    font-size: 3.5rem;
+    background-color: #f2542d;
+    border-radius: 7px 35px 7px 30px; 
+    padding: 15px;
+    margin-left: 100px;
+    position: fixed;
+    right: 0;
+    top:5;
 }
 h1 {
     font-family: 'Voltaire', sans-serif;
@@ -53,8 +71,14 @@ label {
 }
 
 .card1 , .card2 , .card3 {
-    border: solid 1px #ffffea;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: solid 3px #f2542d;
     border-radius: 20px;
+    background: #415d43;
+    width: 33%;
+    height: 500px;
 }
 
 .sponsors {
@@ -65,14 +89,24 @@ label {
     justify-content: space-around;
     background-color: #ffffea;
     border-radius: 20px 100px 20px 100px;
+    padding-top: -35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.sponsors h2 {
-    color:#339aae;
+.sponsorheader {
+    display: flex;
+    align-items: center;
 }
 
 .sponsorlink {
     display: flex;
     align-items: center;
-    color: #339aae;
+    color: #ffffea;
+    background-color: #f2542d;
+    border-radius: 7px 35px 7px 30px;
+    padding: 15px;
+    margin-top: 25px;
+
 }
