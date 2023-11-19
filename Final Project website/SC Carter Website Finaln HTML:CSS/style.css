@@ -1,12 +1,78 @@
 html {
     font-family: 'Oswald', sans-serif;
     font-family: 'Voltaire', sans-serif;
+    font-size: 62.5%;
 }
 
+body {
+    background-color: #339aae;
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffea;
+    border-radius: 20px 100px 20px 100px;
+}
+
+
+header h1 {
+    color:#339aae;
+}
+
+a {
+    text-decoration: none;
+    color:#ffffea;
+    font-size: 2rem;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
 h1 {
     font-family: 'Voltaire', sans-serif;
+    font-size: 3rem;
 }
 
+h2 {
+    text-align: center;
+    color:#ffffea;
+    font-size: 4rem;
+}
 p {
     font-family: 'Oswald', sans-serif;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+}
+
+.card1 , .card2 , .card3 {
+    border: solid 1px #ffffea;
+    border-radius: 20px;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffea;
+    border-radius: 20px 100px 20px 100px;
+}
+
+.sponsors h2 {
+    color:#339aae;
+}
+
+.sponsorlink {
+    display: flex;
+    align-items: center;
+    color: #339aae;
 }
