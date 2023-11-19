@@ -36,10 +36,11 @@ header {
     align-items: center;
     justify-content: flex-start;
     background-color: #ffffea;
-    border-radius: 20px 100px 20px 100px;
+    border-radius: 10px 125px 10px 150px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin: 10px 5px 10px 5px;
+   
 }
 
 
@@ -59,9 +60,9 @@ header h1 {
     background-color: #339aae;
     padding-right: 200px;
     padding-left: 40px;
-    border-radius: 15px 60px 15px 125px;
+    border-radius: 25px 60px 25px 125px;
     margin-left: 30px;
-    border: solid 5px #ffffea;
+    border: double 15px #ffffea;
     font-size: 3.5rem;
 }
 
@@ -76,6 +77,15 @@ header h1 {
     right: 2%;
     top:5;
 }
+/*got this fun little transition colour change from https://www.w3schools.com/css/css3_buttons.asp bless and highly favour them */
+.passesbutton {
+    transition-duration: 0.4s;
+  }
+
+.passesbutton:hover {
+    background-color: #ffffea;
+    color: #f2542d;
+  }
 
 /*navigational bar*/
 .navitem {
@@ -101,11 +111,27 @@ header h1 {
  .heroheader {
     color: #339aae;
     background-color: #ffffea;
-    padding: 15px 10px;
-    margin-left: 250px;
-    margin-right:250px;
+    padding: 10px 5px;
+    margin-left: 275px;
+    margin-right:275px;
     border-radius: 10px 100px;
     font-size: 5.5rem;
+    border: double 15px #f2542d;
+ }
+
+ .heroparagraph {
+    display: flex;
+    justify-content: center;
+    color:#ffffea;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -30px;
+    text-align: center;
+ }
+
+ .homeheroimage {
+    margin-left: 200px;
+
  }
 
 /*cards*/
@@ -171,7 +197,7 @@ footer {
     justify-content: center;
     color: #ffffea;
     background:#f2542d;
-    border-radius: 7px 50px 7px 50px;
+    border-radius: 7px 50px 7px 35px;
     font-size: 2rem;
     padding: 20px;
 }
