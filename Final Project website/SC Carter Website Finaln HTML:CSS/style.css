@@ -488,6 +488,17 @@ h4 {
     font-size: 4rem;
     margin-top: 5px;
 }
+
+.christmasinjulp {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.passpromoimage {
+    margin-left: 190px;
+    border-radius: 50px;
+    border: double 25px #ffffea;
+}
 /*media queries*/
 
 @media only screen and (min-width: 1200px) {
