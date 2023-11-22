@@ -29,7 +29,9 @@ a {
     color: #ffffea;
     font-size: 2rem;
 }
-
+/*----------------------------------------*/
+/*--------------Home page----------------*/
+/*--------------------------------------*/
 /*header section*/ 
 header {
     
@@ -281,6 +283,7 @@ label {
     background-color: #ffffea;
     color: #f2542d;
   }
+
 /*sponsor section*/
 .sponsors {
     display: flex;
@@ -331,6 +334,8 @@ label {
     color: #f2542d;
   }
 
+
+
 /*footer section*/
 
 footer {
@@ -373,9 +378,9 @@ footer {
     justify-content:center;
     margin-top: 20px;
 }
-
-/*this section is for stylings related to the About page*/
-
+/*-------------------------------------------------------*/
+/*-------------About page-------------------------------*/
+/*-----------------------------------------------------*/
 .aboutblock1 {
     display: flex;
     flex-direction: row;
@@ -450,6 +455,7 @@ iframe {
     border-radius: 40px;
     margin-right: 15px;
     margin-left: 15px;
+    margin-bottom: 25px;
 }
 
 .maptitle {
@@ -460,10 +466,16 @@ iframe {
     font-size: 3.5rem;
     border: double 15px #f2542d;
 }
+/*contact us section form*/
 
+.contactuspara {
+    font-size: 2rem;
 
+}
+
+/*----------------------------------------*/
 /* Festival Passes page*/
-
+/*---------------------------------------*/
 .passesheroimage {
     border-radius: 40px;
     border: double 10px #ffffea;
@@ -565,6 +577,13 @@ tr:nth-child(even) {
     font-size: 5.5rem;
     border: double 15px #f2542d;
   }
+
+  .checkboxform {
+    margin-left: 600px;
+    margin-top: -40px;
+  }
+
+
 /*media queries*/
 
 @media only screen and (min-width: 1200px) {

@@ -129,17 +129,25 @@
         <th class="additionalinfo" scope="row">+ = plus taxes and service fees</th>
         <th class="additionalinfo" scope="row">* = must be ordered in advance</th>
 </tr>
+<tr>
+    <th class="additionalinfo" scope="row"><i>All ticket purchases are final, no refunds</i></th>
+</tr>
 </tfoot>
     </table>
 </section>
 
     <!--Updates for ticket info subscribe form-->
-    <section class="hpsubscribe">
-        <h2 class="subscribehead">Subscribe to get all the VIMF Festival Pass Information!</h2>
-        <!--I copied this code from the exercises this week from https://www.w3schools.com/html/html_form_input_types.asp . I tweaked the text a little to suite my needs but oterhwise this ia all them -->
-        <form>
-            <label for="email">Enter your email here to get every VIMF Festival Pass Update!</label><br>
-            <input type="email" id="email" name="email" placeholder="enter your email">
+ <section>
+          <h2 class="fpheader">I would like to recieve updates for...</h2>
+          <form class="checkboxform">
+            <input type="checkbox" id="passoption1" name="passoption1" value="festpass">
+            <label for="passoption1"> Early Bird</label><br>
+            <input type="checkbox" id="passoption2" name="passoption2" value="festpass">
+            <label for="passoption2"> Christmas in July</label><br>
+            <input type="checkbox" id="passoption3" name="passoption3" value="festpass">
+            <label for="passoption3"> Last Chance</label><br>
+            <input type="checkbox" id="camppasses" name="camppasses" value="camppass">
+            <label for="camppasses">Camping Passes</label>
           </form>
     </section>
 
