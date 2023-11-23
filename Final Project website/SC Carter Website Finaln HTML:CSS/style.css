@@ -384,36 +384,55 @@ footer {
 .aboutblock1 {
     display: flex;
     flex-direction: row;
-    font-size: 3rem;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-
+    font-size: 1.5rem;
+    margin-right: 2px;
+    margin-left: 5px;
+    margin-top: -50px;
 }
 
 .aboutimages {
     border-radius: 40px;
     border: double 10px #ffffea;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    width: 50%;
 }
+
+.aboutimages2 {
+    border-radius: 40px;
+    border: double 10px #ffffea;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 230px;
+    width: 47%;
+}
+
+.aboutimages3 {
+    border-radius: 40px;
+    border: double 10px #ffffea;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    width: 49%;
+} 
 
 .aboutblock2 {
     display: flex;
     flex-direction: row;
-    font-size: 3rem;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 1.5rem;
+    margin-top: -20px;
 }
 
 /*get your passes cta button*/
 .getlinkabout {
-    font-size: 3.5rem;
+    font-size: 1.75rem;
     background-color: #f2542d;
     border-radius: 7px 50px 7px 50px; 
     padding: 15px 35px 15px 35px;
-    margin-left: 100px;
     margin-top: -15px; 
     margin-bottom: 35px;
 
@@ -430,18 +449,19 @@ footer {
   .aboutcta {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
   }
 /*this is the map*/
-.mapinfo {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .address {
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: left;
     margin-left: 20px;
     color: #ffffea;
+    margin-top: -2px;
+ 
 }
 
 .address {
@@ -451,11 +471,13 @@ footer {
 .address:hover {
     color: #f2542d; 
 }
+
 iframe {
     border-radius: 40px;
     margin-right: 15px;
     margin-left: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
+    width: 80%;
 }
 
 .maptitle {
@@ -470,8 +492,9 @@ iframe {
 
 .contactuspara {
     font-size: 2rem;
-
+    margin-top:-20px;
 }
+
 
 /*----------------------------------------*/
 /* Festival Passes page*/
@@ -627,5 +650,44 @@ tr:nth-child(even) {
         width: 40%;
         margin-left: 27%;
         margin-right: 33%;
+    }
+
+    /* festival pass page queries*/
+
+    .passpromoimage {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    table {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    th {
+        font-size: 3rem;
+    }
+
+    td {
+       font-size: 2.5rem;
+    }
+
+    .norefunds {
+        font-size: 1.75rem;
+    }
+
+    .fpheader {
+        padding-left: 35px;
+        padding-right: 25px;
+    }
+
+    .checkboxform {
+        text-align: center;
+    }
+/*about page media queries*/
+
+    .mapinfo {
+        display: flex;
+        flex-direction: row;
     }
 }
