@@ -43,6 +43,10 @@ header {
    
 }
 
+.headerimage {
+    width: 100%;
+}
+
 
 header h1 {
     color:#339aae;

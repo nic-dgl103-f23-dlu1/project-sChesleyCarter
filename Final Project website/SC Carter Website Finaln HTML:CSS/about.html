@@ -10,13 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Voltaire&display=swap" rel="stylesheet">
     <title>VIMF About</title>
 </head>
+<body>
 <header>
     <h1 class="dates">July 12-14 2024</h1>
-    <a href="index.html"><img src="images/vimf_logo.png" alt="Vancouver Island Music Fest Logo" width="100%" ></a>
+    <a href="index.html"><img class="headerimage" src="images/vimf_logo.png" alt="Vancouver Island Music Fest Logo"></a>
     <h1 class="locationhead">Comox Valley Exhibition Grounds <br>Courtenay, BC</h1>
     <a class="passesbutton" href="festivalpasses.html">Festival Passes</a>
    
 </header>
+
 <!--Navigation bar-->
 <nav class="navbar">
     <a class="navitem" href="index.html">Home</a>
@@ -26,49 +28,50 @@
     <a class="navitem" href="https://www.islandmusicfest.com/get-involved/" target="_blank">Get Involved</a>
     
 </nav>
-<body>
+
     <section class="homehero">
-        <h1 class="heroheader">About VIMF</h1>
+        <h2 class="heroheader">About VIMF</h2>
         
         
     </section>
-    <section class="aboutblock1">
+    <div class="aboutblock1">
         <p>The Comox Valley Folk Society is a non-profit organization formed in 1995 specifically to produce the Vancouver Island MusicFest. <br><br>
             The Society is governed by a Board of Directors and the Festival is run by a small staff who oversee the Festival which in turn, is run by 1300 spectacular volunteers.</p>
         <img class="aboutimages" src="images/grierson_stage.jpg" alt="Grierson stage at Vancouver Island Music Festival">
-    </section>
-    <section class="aboutblock2">
+    </div>
+
+    <div class="aboutblock2">
         <img class="aboutimages2" src="images/woodland_stage.jpg" alt="The Woodlands Stage at Vancouver Island Music Festival">
         <p>Over the years, the Festival has grown from a small gathering to one of Canada’s premier Roots, Folk and Global Music Festivals. We celebrate excellence in many forms of music. <br><br>
             We are proud of our musical diversity as well as our inclusivity and accessibility within our Community. We are a family event with a large campground. (We actually become the 3rd largest town in the Comox Valley during our annual weekend!)</p>
-    </section>
-    <section class="aboutblock1">
+    </div>
+    <div class="aboutblock1">
         <p>We follow the model of a traditional Western Canadian Folk Festival with the focus of our programming being on workshops, jam sessions, song circles and concerts. Vancouver Island Music Festival proudly features a range of local, BC, National and International performers.<br> We remain very proud of our economic impact as one of the primary drivers of Cultural Tourism on Vancouver Island.</p>
 
     <img class="aboutimages3" src="images/the_barn.jpg" alt="The Barn stage at Vancouver Island Music Festival">
-    </section>
+    </div>
+
 
      <!--get your passes cta-->
-     <section class="aboutcta">
+     <div class="aboutcta">
         <a class="getlinkabout" href="festivalpasses.html">Get Your Passes</a>
         <a class="getlinkabout" href="https://www.islandmusicfest.com/get-involved/">Join Us</a>
-        </section>
+        </div>
 
 <!---this section is for the map media and specific location details-->
-<section class="map">
-    <h2 class="maptitle">Getting to VIMF</h2>
+
     <section class="mapinfo">
+        <h2 class="maptitle">Getting to VIMF</h2>
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10320.757690634176!2d-125.0056546!3d49.7072355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813fc7b34fdf1%3A0xc9bb4f963185a3a5!2sComox%20Valley%20Exhibition%20Grounds!5e0!3m2!1sen!2sca!4v1700617226944!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <!--location is linkable-->
 <a class="address" href="https://www.google.com/maps/place/Comox+Valley+Exhibition+Grounds/@49.7072355,-125.0056546,15z/data=!4m6!3m5!1s0x548813fc7b34fdf1:0xc9bb4f963185a3a5!8m2!3d49.7072355!4d-125.0056546!16s%2Fg%2F1vhkk7dl?entry=ttu" target="_blank"><p class="address">The Comox Valley Exhibition Grounds<br>
     4839 Headquarters Rd <br> Courtenay, BC <br> V9J 1P2 </p></a>
 </section>
-</section>
 
 <!--contact us section-->
 <!--got this code from https://www.w3schools.com/html/html_form_input_types.asp-->
 <section class="contactus">
-    <h2 clas="contactheader">Contact Us</h2>
+    <h2 class="contactheader">Contact Us</h2>
     <p class="contactuspara">If you are having difficulties purchasing your tickets, please call us at 250.334.1634 or send us an email: tickets@islandmusicfest.com</p>
     <p class="contactuspara">If you have any other inquiries please fill out the form below and we'll be in touch ASAP!</p>
     <form class="contactform" action="/action_page.php">
@@ -78,14 +81,15 @@
         <input type="text" id="lname" name="lname" placeholder="last name"><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" placeholder="enter your email"><br>
-        <form action="/action_page.php">
-            <p><label for="contact">Send Us a Message</label></p>
-            <textarea id="contact" name="contact" rows="6" cols="30" placeholder="Contact VIMF!"></textarea>
-            <br>
-          </form><br>
-
-        <input type="submit" value="Submit">
+       
       </form>
+      <form action="/action_page.php">
+        <p><label for="contact">Send Us a Message</label></p>
+        <textarea id="contact" name="contact" rows="6" cols="30" placeholder="Contact VIMF!"></textarea>
+        <br>
+      </form><br>
+
+    <input type="submit" value="Submit">
       
 
 </section>
