@@ -10,9 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Voltaire&display=swap" rel="stylesheet">
     <title>VIMF Passes</title>
 </head>
+<body>
 <header>
     <h1 class="dates">July 12-14 2024</h1>
-    <a href="index.html"><img src="images/vimf_logo.png" alt="Vancouver Island Music Fest Logo" width="100%" ></a>
+    <a href="index.html"><img class="headerimage" src="images/vimf_logo.png" alt="Vancouver Island Music Fest Logo"></a>
     <h1 class="locationhead">Comox Valley Exhibition Grounds <br>Courtenay, BC</h1>
     <a class="passesbutton" href="festivalpasses.html">Festival Passes</a>
    
@@ -26,19 +27,13 @@
     <a class="navitem" href="https://www.islandmusicfest.com/get-involved/" target="_blank">Get Involved</a>
     
 </nav>
-<body>
-     <h2 class="fpheader">Festival Passes</h2>
-    <!--hero section-->
-    <section class="homehero">
-       
-        
-    </section>
-
+     
      <!--Card section
     Card 1: Festival Passes Card-->
-    <section class="cardsection">
+    <h2 class="fpheader">Festival Passes</h2>
+    <div class="cardsection">
         <section class="card">
-            <img src="images/ticketpromo.jpg" alt="Festival passes card image, Christmas in July pass promotional image" width="90%" height="200">
+            <img src="images/ticketpromo.jpg" alt="Festival passes card image, Christmas in July pass promotional image" height="200">
             <h3 class="cardheadtix">Christmas in July</h3>
             <h4>Limited number of passes available!</h4>
             <p class="cardptix"> Adults - $215 <br> Senoirs (65+) - $205<br>Youth (13-18) - $125 <br> Kids (12& Under) - FREE</p>
@@ -47,7 +42,7 @@
     
         <!--Card 2: Get involved-->
         <section class="card">
-            <img src="images/about_hero_image.png" alt="audience at Vancouver Island Music Festival" width="90%" height="200">
+            <img src="images/about_hero_image.png" alt="audience at Vancouver Island Music Festival" height="200">
             <h3 class="cardheadtix">Gate Tickets</h3>
             <h4>Tickets Available at the Gate of VIMF on July 12th</h4>
             <p class="cardptix"> Adults - $290 <br> Senoirs (65+) - $280<br>Youth (13-18) - $160 <br> Kids (12& Under) - FREE</p>
@@ -57,25 +52,25 @@
     
         <!--card 3: about page-->
         <section class="card">
-            <img src="images/grassy_knoll.jpg" alt="the Grassy Knoll at Vancouver Island Music Festival" width="90%" height="200">
+            <img src="images/grassy_knoll.jpg" alt="the Grassy Knoll at Vancouver Island Music Festival" height="200">
             <h3 class="cardheadtix">Early Bird</h3>
             <h4>Avaliable until 1500 passes sold or March 31st</h4>
             <p class="cardptix">Adults - $235 <br> Senoirs (65+) - $225<br>Youth (13-18) - $135 <br> Kids (12& Under) - FREE</p>
             <a class="cardcta" href="festivalpasses.html">Buy Now</a>
         </section>
-    </section>
+    </div>
 
 <!---Christmas in July promo section-->
     <section>
         <h2 class="heroheader">Christmas in July!</h2>
-        <p class="christmasinjulp">Secure your passes for VIMF 2024! <br>There are a limited number of Christmas in July passes available at a discounted rate so get yours before they're gone!
+        <p class="christmasinjulp">Secure your passes for VIMF 2024! There are a limited number of Christmas in July passes available at a discounted rate so get yours before they're gone!
             <br>
             Weekend Passes available Online December 1, 2023 @ 8:00 am<br>
             Early Bird Weekend passes available as soon
             as Christmas Tickets Sell Out<br>
             Camping on sale March 15, 2024 @ 8:00 am
         </p>
-        <img class="passpromoimage" src="images/ticketpromo.jpg" alt="Christmas in July festival pass promotional graphic" width="90%">
+        <img class="passpromoimage" src="images/ticketpromo.jpg" alt="Christmas in July festival pass promotional graphic">
     </section>
 
     <!---Table section for ticket pricings-->
@@ -124,13 +119,11 @@
        
     </tbody>
     <tfoot>
-    <tr>
-        <th class="additionalinfo" scope="row">+ = plus taxes and service fees</th>
-        <th class="additionalinfo" scope="row">* = must be ordered in advance</th>
-</tr>
-<tr>
-    <th class="norefunds" scope="row"><i>All ticket purchases are final, no refunds</i></th>
-</tr>
+        <tr>
+            <td class="additionalinfo">+ = plus taxes and service fees</td>
+            <td class="additionalinfo">*= must be ordered in advance</td>
+            <td class="norefunds"><i>All ticket purchases are final, no refunds</i></td>
+        </tr>
 </tfoot>
     </table>
 </section>
@@ -152,15 +145,10 @@
           </form>
     </section>
 
-    
-    
-</body>
-
 <!--footer section-->
-<p class="disclaimer"><strong>Disclaimer:</strong>“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
-</p>
-
 <footer>
+    <p class="disclaimer"><strong>Disclaimer:</strong>“This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”
+    </p>
         <div class="footeritems">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -168,8 +156,9 @@
         <a href="https://www.islandmusicfest.com/get-involved/">Get Involved</a>
         <a href="https://www.islandmusicfest.com/sponsors/">Sponsors</a>
         </div>
-        
+        <a class="privpol" href="https://www.islandmusicfest.com/privacy-policy/">Privacy Policy</a>
+        <p class="copyright">Copyright Vancouver Island MusicFest 2023</p>
 </footer>
-<a class="privpol" href="https://www.islandmusicfest.com/privacy-policy/">Privacy Policy</a>
-<p class="copyright">Copyright Vancouver Island MusicFest 2023</p>
+
+</body>
 </html>

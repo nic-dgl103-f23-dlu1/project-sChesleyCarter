@@ -199,6 +199,7 @@ header h1 {
     border-radius: 25px;
     border: solid 5px #ffffea;
     margin-top: 20px;
+    width: 90%;
 }
 
 .promocard {
@@ -532,7 +533,7 @@ h4 {
 }
 
 .christmasinjulp {
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: -25px;
     margin-bottom: 35px;
@@ -542,6 +543,7 @@ h4 {
     margin-bottom: 50px;
     border-radius: 50px;
     border: double 15px #ffffea;
+    width: 90%;
 }
 
 /*table*/
@@ -696,6 +698,12 @@ tr:nth-child(even) {
 
     .checkboxform {
         text-align: center;
+    }
+
+    .christmasinjulp {
+        font-size: 3rem;
+        margin-left: 270px;
+        margin-right: 270px;
     }
 /*about page media queries*/
 
