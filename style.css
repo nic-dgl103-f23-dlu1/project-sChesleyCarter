@@ -16,7 +16,7 @@ h1 {
 h2 {
     text-align: center;
     color:#ffffea;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 p {
@@ -36,47 +36,57 @@ a {
 header {
     
     background-color: #ffffea;
-    border-radius: 10px 125px 10px 150px;
+    border-radius: 10px 65px 10px 70px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin: 10px 5px 10px 5px;
    
 }
+.headercontent {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
 
-.headerimage {
-    width: 100%;
+.headerimageanchor {
+    max-width: 50%;
+    
 }
 
 
 header h1 {
     color:#339aae;
     text-align: center;
-    padding: 30px 10px 30px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .dates {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     padding-left: 20px;
 }
 
 .locationhead {
     color: #ffffea;
     background-color: #339aae;
-    padding-right: 20px;
-    padding-left: 40px;
-    border-radius: 25px 60px 25px 125px;
-    margin-left: 30px;
-    border: double 15px #ffffea;
-    font-size: 3.5rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px 30px 5px 35px;
+    margin-left: 10px;
+    border: double 5px #ffffea;
+    font-size: 1.5rem;
 }
 
 /*sticky festival pass button*/
 .passesbutton {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     background-color: #f2542d;
     border-radius: 7px 50px 7px 50px; 
     padding: 15px 35px 15px 35px;
-    margin-left: 100px;
+    margin-left: 200px;
 
 }
 /*got this fun little transition colour change from https://www.w3schools.com/css/css3_buttons.asp bless and highly favour them */
@@ -122,7 +132,7 @@ header h1 {
     background-color: #ffffea;
     padding: 10px 5px;
     border-radius: 10px 100px;
-    font-size: 5.5rem;
+    font-size: 2rem;
     border: double 15px #f2542d;
  }
 
@@ -130,9 +140,9 @@ header h1 {
     display: flex;
     justify-content: center;
     color:#ffffea;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
-    margin-top: -30px;
+    margin-top: -10px;
     text-align: center;
  }
 
@@ -143,11 +153,11 @@ header h1 {
  }
 
  .getlink {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     background-color: #f2542d;
     border-radius: 7px 50px 7px 50px; 
     padding: 15px 35px 15px 35px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 150px; 
 
 }
@@ -232,7 +242,7 @@ header h1 {
 label {
     font-family: 'Oswald', sans-serif;
     color:#ffffea;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     
 }
 
@@ -255,7 +265,7 @@ label {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 15px;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 /*land Acknowledgement section*/
 .landacknowledgement {
@@ -271,14 +281,14 @@ label {
     padding-top: 10px;
     padding-bottom: 15px;
     margin-bottom:-10px;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .latext {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
 
 
 }
@@ -286,8 +296,9 @@ label {
 .lalink {
   background-color: #f2542d;
   padding: 15px 25px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   border-radius: 3px 35px 3px 35px;
+  font-size: 1.5rem;
 
 }
 .lalink {
@@ -624,23 +635,46 @@ tr:nth-child(even) {
 /* this is homepage queries*/
 
 @media only screen and (min-width: 1200px) {
+    header {
+    background-color: #ffffea;
+    border-radius: 10px 125px 10px 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 5px 10px 5px;
+    }
+    
     .cardsection {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    header {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
+    .dates {
+        font-size: 4rem;
+    }
+
+    .locationhead {
+        color: #ffffea;
+        background-color: #339aae;
+        padding-right: 20px;
+        padding-left: 40px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-radius: 25px 60px 25px 125px;
+        margin-left: 30px;
+        border: double 15px #ffffea;
+        font-size: 3.5rem;
     }
 
     .passesbutton {
         position: fixed;
         right: 2%;
         top: 20%;
+        font-size: 3.5rem;
+    }
+
+    .vimflogo {
+        width: 500px;
     }
 
     .heroheader{
@@ -660,8 +694,36 @@ tr:nth-child(even) {
         width: 40%;
         margin-left: 27%;
         margin-right: 33%;
+        font-size: 4.5rem;
     }
 
+    .heroparagraph {
+        font-size: 3rem;
+    }
+
+    .getlink {
+        font-size: 2.5rem;
+    }
+
+    .subscribehead {
+        font-size: 4.5rem;
+    }
+
+    label {
+        font-size: 3rem;
+    }
+
+    .laheader {
+        font-size: 5.5rem;
+    }
+
+    .latext {
+        font-size: 3rem;
+    }
+
+    .lalink {
+        font-size: 3rem;
+    }
     .footeritems {
         width: 40%;
         margin-left: 30%;
