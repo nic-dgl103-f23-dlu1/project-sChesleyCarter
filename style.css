@@ -132,7 +132,7 @@ header h1 {
     background-color: #ffffea;
     padding: 10px 5px;
     border-radius: 10px 100px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border: double 15px #f2542d;
  }
 
@@ -406,7 +406,7 @@ label {
     font-size: 1.5rem;
     margin-right: 2px;
     margin-left: 5px;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 .aboutimages {
@@ -504,7 +504,7 @@ iframe {
     background-color: #ffffea;
     padding: 10px 5px;
     border-radius: 10px 100px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     border: double 15px #f2542d;
 }
 /*contact us section form*/
@@ -777,6 +777,10 @@ tr:nth-child(even) {
         margin-left: 10%;
     }
 
+    .maptitle {
+        font-size: 4.5rem;
+    }
+
     iframe {
         width: 40%;
     }
@@ -799,8 +803,9 @@ tr:nth-child(even) {
     }
 
     .aboutcta {
-        width: 20%;
-        margin-left: 40%;
+        width: 50%;
+        margin-left: 25%;
+
     }
 
     .getlinkabout {
@@ -809,6 +814,7 @@ tr:nth-child(even) {
       padding-left: 25px;
       padding-right: 25px;
       transform: scale(1.5);
+      font-size: 2rem;
     }
     
 
